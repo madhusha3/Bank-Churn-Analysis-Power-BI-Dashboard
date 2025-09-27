@@ -18,6 +18,8 @@ This project demonstrates my Power BI and DAX problem-solving skills through the
 - **Business Intelligence:** Generating insights and actionable recommendations for stakeholder decision-making
 
 ## Data Model Structure
+<img width="1211" height="753" alt="image" src="https://github.com/user-attachments/assets/282f6664-ee49-4f56-a5e6-80145400fb43" />
+
 ```
 Fact Table: Bank_Churn
 Dimension Tables:
