@@ -1,18 +1,22 @@
 # Bank Customer Churn Analysis of RBC Bank
 
+<p align="center">
 <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/b9bcabca-ebf0-410e-ab4f-98d510794cf7" />
+</p>
 
-
+<p align="center">
 ![Power BI Logo](https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+</p>
 
-## Overview
+## Overview:
 
 This project demonstrates my Power BI and DAX problem-solving skills through the analysis of customer churn data for a banking institution. The project involves setting up the data model, transforming raw Excel data into a structured star schema, creating complex DAX measures, and building interactive dashboards that provide actionable insights for customer retention strategies.
 
+<p align="center">
 <img width="1430" height="797" alt="image" src="https://github.com/user-attachments/assets/8d3a4d47-d77e-4356-bda7-fb2b558a90e6" />
+</p>
 
-
-## Project Structure
+## Project Structure:
 
 - **Data Transformation:** Converting raw Excel data into fact and dimension tables using Power Query Editor
 - **Data Modeling:** Creating relationships between fact and dimension tables in a star schema
@@ -20,8 +24,11 @@ This project demonstrates my Power BI and DAX problem-solving skills through the
 - **Dashboard Design:** Building interactive visualizations with optimized performance using Figma backgrounds
 - **Business Intelligence:** Generating insights and actionable recommendations for stakeholder decision-making
 
-## Data Model Structure
+## Data Model Structure:
+
+<p align="center">
 <img width="1211" height="753" alt="image" src="https://github.com/user-attachments/assets/282f6664-ee49-4f56-a5e6-80145400fb43" />
+</p>
 
 ```
 Fact Table: Bank_Churn
@@ -35,7 +42,7 @@ Dimension Tables:
 └── DateMaster
 ```
 
-## Data Transformation Process
+## Data Transformation Process:
 
 **Original Data:** Single Excel file (Bank_Churn.xlsx) containing all customer information
 
@@ -46,9 +53,9 @@ Dimension Tables:
 4. Established date master table for time intelligence
 5. Optimized data types and removed unnecessary columns
 
-## DAX Measures Created
+## DAX Measures Created:
 
-### Core Customer Metrics
+### Core Customer Metric
 ```dax
 Total Customers = COUNT('Fact-Bank_Churn'[CustomerId])
 
@@ -86,14 +93,14 @@ Non Credit Card Holders = CALCULATE(COUNT('Fact-Bank_Churn'[CustomerId]),
                                    'Dim-CreditCard'[Category] = "Non Credit Card Holder")
 ```
 
-## Performance Optimization
+## Performance Optimization:
 
 - **Custom Backgrounds:** Used Figma to design dashboard backgrounds, reducing Power BI file size and improving load times
 - **Star Schema:** Implemented proper data modeling for optimal query performance  
 - **Efficient DAX:** Used CALCULATE and context transition for better measure performance
 - **Relationship Optimization:** Created proper one-to-many relationships between dimensions and fact table
 
-## Key Dashboard Features
+## Key Dashboard Features:
 
 ### Executive Summary
 - **10,000** Total Customers tracked
@@ -108,7 +115,28 @@ Non Credit Card Holders = CALCULATE(COUNT('Fact-Bank_Churn'[CustomerId]),
 - Monthly churn tracking with previous month comparisons
 - Exit customer segmentation by credit score categories
 
-## Key Insights
+## Project Dashboard Views:
+
+### Home Page
+<p align="center">
+<img width="1430" height="797" alt="image" src="https://github.com/user-attachments/assets/501891e6-f01d-4a66-916f-4e02b97e7aa5" />
+</p>
+
+### Slicer Selection
+<p align="center">
+<img width="1434" height="800" alt="image" src="https://github.com/user-attachments/assets/f7eb0856-a235-42c3-835b-9e4fc903a0e6" />
+</p>
+
+### RLS Security Feature
+<p align="center">
+<img width="1053" height="619" alt="image" src="https://github.com/user-attachments/assets/b35fb28b-1a53-4934-aacf-5918f63c1a41" />
+</p>
+
+<p align="center">
+<img width="377" height="381" alt="image" src="https://github.com/user-attachments/assets/cf8a9a12-f588-4ccd-9a49-de578515bebf" />
+</p>
+
+## Key Insights:
 
 **Churn Patterns:** 20.37% overall churn rate with clear differences between credit card holders and non-holders
 
@@ -120,7 +148,7 @@ Non Credit Card Holders = CALCULATE(COUNT('Fact-Bank_Churn'[CustomerId]),
 
 **Risk Segmentation:** Clear categorization of customers by credit score (Excellent, Very Good, Good, Fair, Poor)
 
-## Business Recommendations
+## Business Recommendations:
 
 **Targeted Retention Programs:** Focus retention efforts on high-risk segments identified through credit score and activity patterns
 
@@ -134,7 +162,7 @@ Non Credit Card Holders = CALCULATE(COUNT('Fact-Bank_Churn'[CustomerId]),
 
 **Customer Segmentation:** Create personalized retention strategies based on credit score categories and demographics
 
-## Technical Skills Demonstrated
+## Technical Skills Demonstrated:
 
 - **Power BI:** Dashboard design, data visualization, performance optimization
 - **DAX:** Complex measure creation, time intelligence, context manipulation
@@ -143,7 +171,7 @@ Non Credit Card Holders = CALCULATE(COUNT('Fact-Bank_Churn'[CustomerId]),
 - **UI/UX Design:** Custom background creation using Figma for enhanced user experience
 - **Business Analysis:** Translating data insights into actionable business recommendations
 
-## Future Enhancements
+## Future Enhancements:
 
 - Implement predictive churn modeling using Power BI AI features
 - Add real-time data refresh capabilities
@@ -151,7 +179,7 @@ Non Credit Card Holders = CALCULATE(COUNT('Fact-Bank_Churn'[CustomerId]),
 - Develop cohort analysis for customer lifecycle understanding
 - Integrate external economic indicators for enhanced analysis
 
-## Project Impact
+## Project Impact:
 
 This analysis enables banks to:
 - **Identify at-risk customers** before they churn using predictive insights
@@ -160,7 +188,7 @@ This analysis enables banks to:
 - **Reduce customer acquisition costs** by improving retention rates
 - **Increase customer lifetime value** through targeted engagement strategies
 
-## Dashboard Structure
+## Dashboard Structure:
 ```
 ├── Executive Summary Dashboard
 ├── Customer Segmentation Analysis  
@@ -170,7 +198,7 @@ This analysis enables banks to:
 └── Monthly Performance Tracking
 ```
 
-## Tools & Technologies
+## Tools & Technologies:
 
 - **Microsoft Power BI** - Primary BI tool for dashboard creation
 - **Power Query Editor** - Data transformation and modeling
