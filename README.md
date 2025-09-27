@@ -1,4 +1,7 @@
-# Bank Customer Churn Analysis of ![RBL Bank](https://www.rblbank.com/) 
+# Bank Customer Churn Analysis of RBC Bank
+
+<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/b9bcabca-ebf0-410e-ab4f-98d510794cf7" />
+
 
 ![Power BI Logo](https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 
