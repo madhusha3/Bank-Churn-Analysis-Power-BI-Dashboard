@@ -1,5 +1,4 @@
-# Bank_Churn_Analysis
-# Bank Customer Churn Analysis - A Financial Services Company
+# Bank Customer Churn Analysis of RBL Bank(https://www.rblbank.com/) 
 
 ![Power BI Logo](https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 
