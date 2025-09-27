@@ -9,6 +9,9 @@
 
 This project demonstrates my Power BI and DAX problem-solving skills through the analysis of customer churn data for a banking institution. The project involves setting up the data model, transforming raw Excel data into a structured star schema, creating complex DAX measures, and building interactive dashboards that provide actionable insights for customer retention strategies.
 
+<img width="1430" height="797" alt="image" src="https://github.com/user-attachments/assets/8d3a4d47-d77e-4356-bda7-fb2b558a90e6" />
+
+
 ## Project Structure
 
 - **Data Transformation:** Converting raw Excel data into fact and dimension tables using Power Query Editor
