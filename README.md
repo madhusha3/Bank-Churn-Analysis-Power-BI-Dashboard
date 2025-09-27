@@ -4,9 +4,7 @@
 <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/b9bcabca-ebf0-410e-ab4f-98d510794cf7" />
 </p>
 
-<p align="center">
 ![Power BI Logo](https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-</p>
 
 ## Overview:
 
